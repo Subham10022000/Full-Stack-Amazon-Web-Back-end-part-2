@@ -1,0 +1,8 @@
+com\amazon\AddToCart\service\ProductDetailsProxy.class
+com\amazon\AddToCart\repo\AddToCartRepo.class
+com\amazon\AddToCart\entity\CartDetails.class
+com\amazon\AddToCart\AddToCartApplication.class
+com\amazon\AddToCart\Controller\AddToCartController.class
+com\amazon\AddToCart\entity\Product.class
+com\amazon\AddToCart\entity\Cart.class
+com\amazon\AddToCart\service\AddToCartService.class

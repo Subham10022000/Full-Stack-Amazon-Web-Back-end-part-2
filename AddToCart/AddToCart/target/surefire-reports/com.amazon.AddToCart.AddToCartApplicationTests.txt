@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.amazon.AddToCart.AddToCartApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.561 s <<< FAILURE! - in com.amazon.AddToCart.AddToCartApplicationTests
+contextLoads  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Error processing condition on org.springframework.cloud.openfeign.FeignAutoConfiguration.cachingCapability
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.cloud.openfeign.FeignAutoConfiguration] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@6d5380c2]
+Caused by: java.lang.NoClassDefFoundError: org/springframework/beans/factory/aot/BeanRegistrationExcludeFilter
+Caused by: java.lang.ClassNotFoundException: org.springframework.beans.factory.aot.BeanRegistrationExcludeFilter
+
