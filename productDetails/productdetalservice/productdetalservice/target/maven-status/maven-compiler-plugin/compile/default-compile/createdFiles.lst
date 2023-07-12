@@ -1,0 +1,5 @@
+com\amazonapp\productdetalservice\repository\ProductRepo.class
+com\amazonapp\productdetalservice\entity\Product.class
+com\amazonapp\productdetalservice\Service\ProductService.class
+com\amazonapp\productdetalservice\ProductdetalserviceApplication.class
+com\amazonapp\productdetalservice\controller\ProductController.class
